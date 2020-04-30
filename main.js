@@ -1,9 +1,9 @@
 function getFlightInfo() {
-  const init = {
+  const params = {
     method: 'GET',
-    headers: { datatype: 'json', data: {access_key: 'a8f3f007b5b6084882a8e2c359e3e4d5'}  },
-  };
-  fetch('http://api.aviationstack.com/v1/flights', init)
+  }
+
+  fetch('http://api.aviationstack.com/v1/flights?access_key=a8f3f007b5b6084882a8e2c359e3e4d5', params)
     .then(res => res.json())
     .then(data => {
       console.log(data)
