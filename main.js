@@ -1,3 +1,5 @@
+
+
 // function getFlightInfo() {
 //   const params = {
 //     method: 'GET',
@@ -20,7 +22,16 @@
 
 // getFlightInfo()
 
+const container = document.getElementById('container')
 
+function createEl(src) {
+  const newEl = document.createElement('div')
+  newEl.classList.add('col-6')
+  const image = document.createElement('img')
+  image.setAttribute('src', src);
+  newEl.appendChild(image)
+  container.appendChild(newEl)
+}
 
 function getPexelPictures(){
     const params = {
@@ -31,8 +42,15 @@ function getPexelPictures(){
         .then(res => res.json())
         .then(data => {
           console.log(data)
+          console.log(data.photos[0].src.portrait)
+          for (let i = 0; i < data.photos.length; i++) {
+            createEl(data.photos[i].src.tiny)
+          }
         });
 }
+
+
+
 
 getPexelPictures()
 
