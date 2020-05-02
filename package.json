@@ -1,0 +1,24 @@
+{
+  "name": "testing-repository",
+  "version": "1.0.0",
+  "description": "testing-repository is a repository designed for testing purposes for any code",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin-tolentino/testing-repository.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevin-tolentino/testing-repository/issues"
+  },
+  "homepage": "https://github.com/kevin-tolentino/testing-repository#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
