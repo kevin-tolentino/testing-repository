@@ -53,16 +53,15 @@ function getFlightInfo() {
   // const params = {
   //   method: 'GET'
   // }
-  // fetch('http://api.aviationstack.com/v1/flights?access_key=a8f3f007b5b6084882a8e2c359e3e4d5&flight_number=5282&flight_date=2020-05-05', params)
+  // fetch('http://api.aviationstack.com/v1/flights?access_key=a8f3f007b5b6084882a8e2c359e3e4d5&flight_number=5295', params)
   //   .then(res => res.json())
   //     .then(data => {
   //       console.log(data)
-  //     });
+  //     });}
   $.ajax({
     url: 'http://api.aviationstack.com/v1/flights',
     data: {
       access_key: 'a8f3f007b5b6084882a8e2c359e3e4d5',
-      flight_number: 5282,
       // flight_date: '2020-05-05'
     },
     dataType: 'json',
