@@ -1,4 +1,5 @@
 import React from 'react';
+import PexelListItem from './pexel-list-item'
 
 export default class Pexels extends React.Component {
   constructor(props) {
@@ -29,16 +30,17 @@ export default class Pexels extends React.Component {
 }
 
   render() {
-    const pexelArray = this.state.pexelsPics
+    const pexelArray = this.state.pexelsPics.map(currentValue => {
+      return (
+        <PexelListItem imageUrl={currentValue} />
+      )
+    })
     console.log(pexelArray)
-    return (
-      // {
-      //   this.state.pexelsPics.map(currentValue => {
-      //     return (
-      //       <img src={currentValue} alt="" />
-      //     )
-      //   })}
-      <h1>hello</h1>
+
+    return (<div>
+      {pexelArray}
+    </div>
+      // <h1>hi</h1>
     )
 }
 }

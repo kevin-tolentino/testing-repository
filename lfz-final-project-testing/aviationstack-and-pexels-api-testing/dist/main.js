@@ -7687,6 +7687,28 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 
 /***/ }),
 
+/***/ "./src/pexel-list-item.jsx":
+/*!*********************************!*\
+  !*** ./src/pexel-list-item.jsx ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return PexelListItem; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function PexelListItem(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: props.imageUrl,
+    alt: ""
+  });
+}
+
+/***/ }),
+
 /***/ "./src/pexels-api.jsx":
 /*!****************************!*\
   !*** ./src/pexels-api.jsx ***!
@@ -7699,6 +7721,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Pexels; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _pexel_list_item__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pexel-list-item */ "./src/pexel-list-item.jsx");
+
 
 class Pexels extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(props) {
@@ -7735,18 +7759,14 @@ class Pexels extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   }
 
   render() {
-    const pexelArray = this.state.pexelsPics;
+    const pexelArray = this.state.pexelsPics.map(currentValue => {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pexel_list_item__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        imageUrl: currentValue
+      });
+    });
     console.log(pexelArray);
-    return (
-      /*#__PURE__*/
-      // {
-      //   this.state.pexelsPics.map(currentValue => {
-      //     return (
-      //       <img src={currentValue} alt="" />
-      //     )
-      //   })}
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "hello")
-    );
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, pexelArray) // <h1>hi</h1>
+    ;
   }
 
 }
