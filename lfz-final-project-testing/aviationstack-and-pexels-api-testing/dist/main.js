@@ -7692,9 +7692,64 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
   !*** ./src/pexels-api.jsx ***!
   \****************************/
 /*! exports provided: default */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/src/pexels-api.jsx: Unexpected keyword 'return' (33:4)\n\n\u001b[0m \u001b[90m 31 | \u001b[39m  render() {\u001b[0m\n\u001b[0m \u001b[90m 32 | \u001b[39m    \u001b[36mconst\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 33 | \u001b[39m    \u001b[36mreturn\u001b[39m ()\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 34 | \u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 35 | \u001b[39m}\u001b[0m\n\u001b[0m \u001b[90m 36 | \u001b[39m\u001b[0m\n    at Object._raise (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:742:17)\n    at Object.raiseWithData (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:735:17)\n    at Object.raise (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:729:17)\n    at Object.checkReservedWord (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:10807:12)\n    at Object.parseIdentifierName (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:10777:12)\n    at Object.parseIdentifier (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:10748:23)\n    at Object.parseBindingAtom (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:9139:17)\n    at Object.parseVarId (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:11784:20)\n    at Object.parseVar (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:11760:12)\n    at Object.parseVarStatement (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:11572:10)\n    at Object.parseStatementContent (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:11171:21)\n    at Object.parseStatement (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:11104:17)\n    at Object.parseBlockOrModuleBlockBody (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:11679:25)\n    at Object.parseBlockBody (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:11665:10)\n    at Object.parseBlock (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:11649:10)\n    at Object.parseFunctionBody (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:10656:24)\n    at Object.parseFunctionBodyAndFinish (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:10639:10)\n    at Object.parseMethod (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:10601:10)\n    at Object.pushClassMethod (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:12104:30)\n    at Object.parseClassMemberWithIsStatic (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:12021:12)\n    at Object.parseClassMember (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:11963:10)\n    at withTopicForbiddingContext (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:11908:14)\n    at Object.withTopicForbiddingContext (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:10979:14)\n    at Object.parseClassBody (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:11885:10)\n    at Object.parseClass (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:11859:22)\n    at Object.parseExportDefaultExpression (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:12295:19)\n    at Object.parseExport (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:12208:31)\n    at Object.parseStatementContent (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:11208:27)\n    at Object.parseStatement (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:11104:17)\n    at Object.parseBlockOrModuleBlockBody (/mnt/c/Users/kevin/lfz/testing-repository/lfz-final-project-testing/aviationstack-and-pexels-api-testing/node_modules/@babel/parser/lib/index.js:11679:25)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Pexels; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+class Pexels extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      pexelsPics: []
+    };
+  }
+
+  componentDidMount() {
+    this.getPexelPictures();
+  }
+
+  getPexelPictures() {
+    const params = {
+      method: 'GET',
+      headers: {
+        'Authorization': '563492ad6f9170000100000199ba9517fba74485b278a4b9796b71c3'
+      }
+    };
+    fetch('https://api.pexels.com/v1/search?query=japan&per_page=15&page=1', params).then(res => res.json()).then(data => {
+      const photoArray = [];
+      console.log(data);
+      console.log(data.photos[0].src.portrait);
+
+      for (let i = 0; i < data.photos.length; i++) {
+        photoArray.push(data.photos[i].src.portrait);
+      }
+
+      this.setState({
+        pexelsPics: photoArray
+      });
+    });
+  }
+
+  render() {
+    const pexelArray = this.state.pexelsPics;
+    console.log(pexelArray);
+    return (
+      /*#__PURE__*/
+      // {
+      //   this.state.pexelsPics.map(currentValue => {
+      //     return (
+      //       <img src={currentValue} alt="" />
+      //     )
+      //   })}
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "hello")
+    );
+  }
+
+}
 
 /***/ })
 

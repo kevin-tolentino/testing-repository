@@ -29,7 +29,16 @@ export default class Pexels extends React.Component {
 }
 
   render() {
-    const
-    return ()
-
+    const pexelArray = this.state.pexelsPics
+    console.log(pexelArray)
+    return (
+      // {
+      //   this.state.pexelsPics.map(currentValue => {
+      //     return (
+      //       <img src={currentValue} alt="" />
+      //     )
+      //   })}
+      <h1>hello</h1>
+    )
+}
 }
