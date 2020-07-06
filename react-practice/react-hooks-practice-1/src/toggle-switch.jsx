@@ -1,20 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 
-export default class toggleSwitch extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isOn: false };
-    this.handleClick = this.handleClick.bind(this);
+export default function toggleSwitch (){
+  const [isOn, setIsOn] = useState(false)
+
+  const handleClick = (event) => {
+    setIsOn(!event.target)
   }
-
-  handleClick() {
-    this.setState(state => ({
-      isOn: !state.isOn
-    }));
-  }
-
-  render() {
-    const toggleState = this.state.isOn;
+    const toggleState = isOn;
     if (!toggleState) {
       return (
         <div className="background-container-off">
