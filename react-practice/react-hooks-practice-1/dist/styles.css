@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+div.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+div.background-container-off {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: url(assets/nature-sky-night-milky-way-127577.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-image 0.5s;
+}
+
+div.background-container-on {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: url(assets/sun-shining-behind-clouds-in-blue-sky-34227.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-image 0.5s;
+}
+
+div.switch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(223, 147, 147);
+  border: 2px solid black;
+}
+
+div.switch-background-off {
+  cursor: pointer;
+  display: flex;
+  width: 35px;
+  height: 20px;
+  border-radius: 35%;
+  background-color: gray;
+  border: 2px solid black;
+  transition: background-color 0.5s;
+}
+
+div.switch-background-on {
+  cursor: pointer;
+  display: flex;
+  width: 35px;
+  height: 20px;
+  border-radius: 35%;
+  background-color: white;
+  border: 2px solid black;
+  transition: background-color 0.5s;
+}
+
+div.toggle-switch-off {
+  box-sizing: border-box;
+  width: 50%;
+  height: 100%;
+  border-radius: 44%;
+  background-color: white;
+  border: 1.5px solid black;
+  transition: transform 0.5s;
+}
+
+div.toggle-switch-on {
+  box-sizing: border-box;
+  width: 50%;
+  height: 100%;
+  border-radius: 44%;
+  background-color: white;
+  border: 1.5px solid black;
+  transition: transform 0.5s;
+  transform: translateX(100%);
+}
+
+div.toggle-text {
+  margin-left: 5px;
+}
