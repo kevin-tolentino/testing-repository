@@ -4,14 +4,15 @@ export default function toggleSwitch (){
   const [isOn, setIsOn] = useState(false)
 
   const handleClick = (event) => {
-    setIsOn(!event.target)
+    setIsOn(!isOn)
   }
-    const toggleState = isOn;
+    let toggleState = isOn;
+
     if (!toggleState) {
       return (
         <div className="background-container-off">
           <div className="switch-container">
-            <div onClick={this.handleClick} className="switch-background-off">
+            <div onClick={handleClick} className="switch-background-off">
               <div className="toggle-switch-off"></div>
             </div>
             <div className="toggle-text">
@@ -24,7 +25,7 @@ export default function toggleSwitch (){
       return (
         <div className ='background-container-on'>
           <div className="switch-container">
-            <div onClick={this.handleClick} className="switch-background-on">
+            <div onClick={handleClick} className="switch-background-on">
               <div className="toggle-switch-on"></div>
             </div>
             <div className="toggle-text">
@@ -35,4 +36,3 @@ export default function toggleSwitch (){
       );
     }
   }
-}
