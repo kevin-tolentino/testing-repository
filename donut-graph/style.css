@@ -1,0 +1,20 @@
+svg {
+  width: 180;
+  height: 180;
+}
+
+.circle-chart__background{
+  stroke: #efefef;
+  stroke-width: 10;
+  fill: none;
+}
+
+.circle-chart__circle{
+  stroke: blue;
+  stroke-width: 10;
+  stroke-dasharray: 134,534;
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: center;
+  fill: none;
+}
