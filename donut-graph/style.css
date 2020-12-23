@@ -20,6 +20,32 @@ svg {
   fill: none;
 }
 
+.new-circle-background {
+  fill: none;
+  stroke: #c4c4c4;
+  stroke-width: 2;
+  stroke-dasharray: 100, 100;
+  stroke-linecap: round;
+}
+
+.new-circle-circle {
+  animation: new-circle-chart-fill 1s ease-in-out;
+  fill: none;
+  stroke: #b4ffce;
+  stroke-width: 2;
+  stroke-dasharray: 25, 100;
+  stroke-linecap: round;
+}
+
+.percentage{
+  font-size: .5em;
+  text-anchor: middle;
+}
+
 @keyframes circle-chart-fill {
   to { stroke-dasharray: 0 100;}
+}
+
+@keyframes new-circle-chart-fill {
+  0% { stroke-dasharray: 0 100;}
 }
